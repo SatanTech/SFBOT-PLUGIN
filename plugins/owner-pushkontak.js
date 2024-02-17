@@ -46,6 +46,6 @@ await conn.sendMessage(m.chat, {text: loadd[i], edit: key })};
 handler.command = handler.help = ["pushkontak"]
 handler.tags = ["owner"]
 handler.owner = true
-handler.admin = true
+handler.admin = false
 handler.group = true
 export default handler
